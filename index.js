@@ -1,8 +1,9 @@
+
 const returnFirstTwoDrivers = function(drivers) {
     return drivers.slice(0, 2);
 }
 const returnLastTwoDrivers = function(drivers) {
-    drivers.slice(-2);
+  return  drivers.slice(-2);
 }
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
@@ -14,7 +15,7 @@ const createFareMultiplier = function(int) {
 const fareDoubler = createFareMultiplier(2);
 const fareTripler = createFareMultiplier(3);
 
-function selectDifrrentDrivers(drivers, selected) {
+function selectDifferentDrivers(drivers, selected) {
     if (selected == returnFirstTwoDrivers) {
         return returnFirstTwoDrivers(drivers);
     } else {
